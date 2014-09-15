@@ -12,52 +12,52 @@ let colors_name = "coffee"
 function! s:translate_color(number)
   let color_number = a:number
   if color_number == 0
-    return '#1E1F29'
+    return '#282828' " Normal Black
   endif
   if color_number == 1
-    return '#C72D2D'
+    return '#c32c2c' " Normal Red
   endif
   if color_number == 2
-    return '#87B047'
+    return '#647f2f' " Normal Green
   endif
   if color_number == 3
-    return '#FFBE53'
+    return '#c8953d' " Normal Yellow
   endif
   if color_number == 4
-    return '#5883A0'
+    return '#5a84a1' " Normal Blue
   endif
   if color_number == 5
-    return '#CC59B2'
+    return '#c85bb5' " Normal Magenta
   endif
   if color_number == 6
-    return '#ABA8E2'
+    return '#16826e' " Normal Cyan
   endif
   if color_number == 7
-    return '#DAD4D2'
+    return '#aaa5a4' " Normal White
   endif
   if color_number == 8
-    return '#404258'
+    return '#606060' " Bright Black
   endif
   if color_number == 9
-    return '#B86329'
+    return '#b66326' " Bright Red
   endif
   if color_number == 10
-    return '#519F50'
+    return '#569e4c' " Bright Green
   endif
   if color_number == 11
-    return '#BC9458'
+    return '#987414' " Bright Yellow
   endif
   if color_number == 12
-    return '#2C313F'
+    return '#7baed5' " Bright Blue
   endif
   if color_number == 13
-    return '#232430'
+    return '#292929' " Bright Magenta
   endif
   if color_number == 14
-    return '#D5D4FF'
+    return '#83d9cf' " Bright Cyan
   endif
   if color_number == 15
-    return '#FFFFFF'
+    return '#ffffff' " Bright White
   endif
 endfunction
 function! s:highlight(group, fg, bg, attr)
@@ -120,12 +120,12 @@ call s:highlight("Statement", 9, "NONE", "NONE")
 call s:highlight("PreProc", 9, "NONE", "NONE")
 
 call s:highlight("Todo", 5, "NONE", "bold")
-call s:highlight("Constant", 4, "NONE", "NONE") 
+call s:highlight("Constant", 4, "NONE", "NONE")
 
 call s:highlight("Identifier", 4, "NONE", "NONE")
 call s:highlight("Function", 3, "NONE", "NONE")
 call s:highlight("Class", 15, "NONE", "bold")
-call s:highlight("Type", 4, "NONE", "NONE")
+call s:highlight("Type", 3, "NONE", "NONE")
 
 call s:highlight("Special", 5, "NONE", "NONE")
 call s:highlight("Delimiter", 7, "NONE", "NONE")
@@ -155,7 +155,7 @@ hi link PreCondit       PreProc
 hi link StorageClass    Type
 hi link Structure       Type
 hi link Typedef         Type
-"hi link Tag             Special
+hi link Tag             Special
 hi link SpecialChar     Special
 hi link SpecialComment  Special
 hi link Debug           Special
@@ -184,7 +184,7 @@ hi link coffeeObjAssign     Gold
 "hi link javaScriptNumber         Number
 "hi link javaScriptPrototype      Identifier " prototype
 "hi link javaScriptSource         Keyword " import export
-"hi link javaScriptType           Identifier " const this undefined var void yield 
+"hi link javaScriptType           Identifier " const this undefined var void yield
 "hi link javaScriptOperator       Keyword " delete new in instanceof let typeof
 "hi link javaScriptBoolean        Keyword " true false
 "hi link javaScriptNull           Keyword " null
