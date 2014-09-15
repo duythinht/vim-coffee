@@ -98,8 +98,8 @@ call s:highlight("ModeMsg", 4, "NONE", "NONE")
 
 if version >= 700 " Vim 7.x specific colors
   " For cursorline, if we set all the properties, things don't go well
-  exe "hi CursorLine guibg=".s:translate_color(13)."gui=none ctermbg=13 cterm=none"
-  exe "hi ColorColumn guibg=".s:translate_color(13)."gui=none ctermbg=13 cterm=none"
+  exe "hi CursorLine guibg=".s:translate_color(13)." gui=none ctermbg=13 cterm=none"
+  exe "hi ColorColumn guibg=".s:translate_color(13)." gui=none ctermbg=13 cterm=none"
   call s:highlight("CursorColumn", "NONE", "NONE", "NONE")
   call s:highlight("TabLine", 8, "NONE", "NONE")
   call s:highlight("TabLineFill", "NONE", "NONE", "NONE")
