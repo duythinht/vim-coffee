@@ -165,7 +165,7 @@ hi link htmlTagName        Gold
 hi link htmlSpecialTagName Gold
 hi link htmlTag            Gold
 hi link htmlEndTag         Gold
-hi link htmlArg            Gold
+hi link htmlArg            Blue
 hi link htmlLink           Normal
 hi link javaScript         Normal
 
