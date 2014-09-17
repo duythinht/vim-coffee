@@ -1,5 +1,4 @@
 " coffee color scheme
-
 set background=dark
 hi clear
 
@@ -105,9 +104,9 @@ if version >= 700 " Vim 7.x specific colors
   call s:highlight("TabLineFill", "NONE", "NONE", "NONE")
   call s:highlight("TabLineSel", "NONE", "NONE", "BOLD")
   call s:highlight("MatchParen", 0, 6, "NONE")
-  call s:highlight("Pmenu", "NONE", "NONE", "NONE")
+  call s:highlight("Pmenu", 3, 8, "NONE")
   call s:highlight("PmenuSel", 0, 3, "NONE")
-  call s:highlight("Search", 0, 2, "underline")
+  call s:highlight("Search", 10, 2, "underline")
 endif
 
 " Syntax highlighting
