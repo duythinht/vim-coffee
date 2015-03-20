@@ -1,3 +1,7 @@
+# You should change it to 256colors base colorscheme for better experience:
+
+https://github.com/duythinht/inori
+
 ## The coffee colors scheme for vim
 
 ## Install using Pathogen:
