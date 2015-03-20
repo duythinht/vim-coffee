@@ -1,4 +1,4 @@
-# You should change it to 256colors base colorscheme for better experience:
+## You should change it to 256colors base colorscheme for better experience:
 
 https://github.com/duythinht/inori
 
