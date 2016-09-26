@@ -20,6 +20,6 @@ https://github.com/duythinht/inori
 
 Previews:
 
-![Vim coffee](https://github.com/duythinht/vim-coffee/images/vim-coffee_preview.png)
+![Vim coffee](https://raw.githubusercontent.com/duythinht/vim-coffee/b460768266cd64b944969d3b6fad8b4a4e0cee15/images/vim-coffee_preview.png)
 
 >http://vimcolors.com/169/coffee/dark
