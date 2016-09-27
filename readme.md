@@ -19,4 +19,7 @@ https://github.com/duythinht/inori
 	colorscheme coffee
 
 Previews:
-![Vim coffee](https://dl.dropboxusercontent.com/u/5933214/Screen%20Shot%202014-09-15%20at%2012.33.17%20AM.png)
+
+![Vim coffee](https://raw.githubusercontent.com/duythinht/vim-coffee/b460768266cd64b944969d3b6fad8b4a4e0cee15/images/vim-coffee_preview.png)
+
+>http://vimcolors.com/169/coffee/dark
